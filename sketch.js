@@ -146,7 +146,7 @@ function draw() {
     redCG.setLifetimeEach(-1);
     
     if(keyDown("UP_ARROW")) {
-      reset;
+      reset();
     }
 
     // if(key("UP_ARROW")) {
@@ -158,7 +158,7 @@ function draw() {
     // }
 
     // if(keyDown("UP_ARROW")) {
-    //   reset();
+    //   reset;
     // }
 }
 }
